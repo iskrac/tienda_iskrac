@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda ISKRAC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo boxw">
+            <h1>Tienda ISKRAC</h1>
+            <p class="eslogan">Innovación y Tecnología a tu alcance</p>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="carrito">
+            🛒 <span id="contador-carrito">0</span>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Bienvenido a nuestra tienda Tecnológica</h2>
+        <p>Encuentra los mejores equipos y a un muy buen precio</p>
+        <a href="#productos" class="btn-hero">Ver productos</a>
+    </section>
+
+    <main id="productos" class="contenedores-productos">
+        <h2>Nuestros Productos</h2>
+        <div class="grid-productos">
+
+            
+            <article class="tarjeta-producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSkO4zFZJBPWlvBzBJhRainZWbzpsxG2_u0oaauWJb-g&s" alt="Notebook de alta gama">
+                <div class="tarjeta-cuerpo">
+                    <h3>Notebook de alta gama</h3>
+                    <p class="precio">$450.000</p>
+                    <div class="acciones">
+                        <a href="ficha.html?id=1" class="btn-detalle">Ver detalle</a>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            
+            <article class="tarjeta-producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWpFPEspB6PLeXvD4-gGgF2Snl-WBw0TzXW-NTvHPvNw&s=10" alt="Audífonos con orejas rosa">
+                <div class="tarjeta-cuerpo">
+                    <h3>Audífonos con orejas de gato</h3>
+                    <p class="precio">$65.000</p>
+                    <div class="acciones">
+                        <a href="ficha.html?id=2" class="btn-detalle">Ver detalle</a>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            
+            <article class="tarjeta-producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeOERD1O9oTa2TZSF2xeOUWsqD3jRmFa835XMzFDsqQg&s=10" alt="Teclado ergonómico">
+                <div class="tarjeta-cuerpo">
+                    <h3>Teclado Ergonómico</h3>
+                    <p class="precio">$85.000</p>
+                    <div class="acciones">
+                        <a href="ficha.html?id=3" class="btn-detalle">Ver detalle</a>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas sobre tu producto o pedido? Escríbenos:</p>
+        <p>Email: contacto@TiendaISKRAC.cl</p>
+        <p>Teléfono: +56935689920</p>
+        <p class="copy">&copy; 2026 Tienda ISKRAC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
